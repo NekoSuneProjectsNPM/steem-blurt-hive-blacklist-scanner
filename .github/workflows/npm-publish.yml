@@ -35,7 +35,9 @@ jobs:
       # Read current package version
       - name: Read version from package.json
         id: read_version
-        run: echo "VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       # Update changelog unreleased section with current version
       - name: Update changelog
