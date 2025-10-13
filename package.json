@@ -1,0 +1,15 @@
+{
+    "name": "steem-blurt-hive-blacklist-scanner",
+    "version": "1.0.0",
+    "description": "Scan Steemit/Blurt/Hive username lists against public blacklist sources (Blurt & Hive) and report matches.",
+    "main": "index.js",
+    "bin": {
+        "sbhs-scan": "index.js"
+    },
+    "author": "NekoSuneVR",
+    "license": "MIT",
+    "dependencies": {
+        "minimist": "^1.2.8",
+        "node-fetch": "^2.7.0"
+    }
+}
