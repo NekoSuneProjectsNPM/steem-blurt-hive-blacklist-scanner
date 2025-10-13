@@ -1,10 +1,6 @@
 {
     "name": "@nekosuneprojects/steem-blurt-hive-blacklist-scanner",
-<<<<<<< HEAD
     "version": "1.1.2",
-=======
-    "version": "1.0.2",
->>>>>>> ac925df6955cce318ecf3ec164f7c3a1235023ef
     "description": "Scan Steemit/Blurt/Hive username lists against public blacklist sources (Blurt & Hive) and report matches.",
     "main": "index.js",
     "publishConfig": {
