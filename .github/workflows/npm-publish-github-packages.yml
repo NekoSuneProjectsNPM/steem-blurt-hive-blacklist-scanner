@@ -45,7 +45,9 @@ jobs:
       # Read version from package.json
       - name: Read version from package.json
         id: read_version
-        run: echo "VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       # Publish package to GitHub Packages
       - name: Publish to GitHub Packages
