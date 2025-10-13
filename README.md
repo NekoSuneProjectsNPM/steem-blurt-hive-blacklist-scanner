@@ -47,7 +47,7 @@ sbhs-scan --file users.txt --format json
 
 
 ```js
-const scanner = require('./index');
+const scanner = require('@nekosuneprojects/steem-blurt-hive-blacklist-scanner');
 await scanner.init();
 const report = await scanner.checkUsers(['anikkhan16','akomo','a-0-0']);
 console.log(report);
