@@ -5,12 +5,12 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/NekoSuneProjects/steem-blurt-hive-blacklist-scanner.git"
+        "url": "https://github.com/NekoSuneProjectsNPM/steem-blurt-hive-blacklist-scanner.git"
     },
     "bugs": {
-        "url": "https://github.com/NekoSuneProjects/steem-blurt-hive-blacklist-scanner/issues"
+        "url": "https://github.com/NekoSuneProjectsNPM/steem-blurt-hive-blacklist-scanner/issues"
     },
-    "funding": "https://github.com/NekoSuneProjects/steem-blurt-hive-blacklist-scanner?sponsor",
+    "funding": "https://github.com/NekoSuneProjectsNPM/steem-blurt-hive-blacklist-scanner?sponsor",
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/"
